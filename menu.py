@@ -5,7 +5,7 @@ from pygame.locals import *
 pygame.init()
 pygame.display.set_caption('Selection Mode')
 scn = pygame.display.set_mode((500, 500),0,32)
- 
+a = 2
 font = pygame.font.SysFont(None, 20)
  
 def draw_for_text(text, font, color, surface, x, y):
