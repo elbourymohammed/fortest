@@ -7,7 +7,7 @@ pygame.display.set_caption('Selection Mode')
 scn = pygame.display.set_mode((500, 500),0,32)
 a = 2
 font = pygame.font.SysFont(None, 20)
- 
+ aladin
 def draw_for_text(text, font, color, surface, x, y):
     textobj = font.render(text, 1, color)
     textrect = textobj.get_rect()
